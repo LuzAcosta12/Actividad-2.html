@@ -1,0 +1,42 @@
+body{
+    margin: 30px;
+
+}
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: auto;
+background-color: white; /* fondo */
+grid-gap: 15px;
+color: palevioletred;
+}
+.box{
+    background-color: rgb(232, 145, 174);
+    color:black; /* color de letra*/
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.header{
+    grid-column: 1/6;
+    border: 1px solid black;
+}
+.article{
+    grid-column: 1/5;
+    border: 1px solid black;
+}
+.aside{
+    grid-column: 5/6;
+    grid-row: 2/4;
+    border: 1px solid black;
+}
+.footer{
+    grid-column: 1/5;
+    border: 1px solid black;
+}
+
+.apartado
+{
+    grid-column: 5/7;
+    border: 1px solid black;
+}
